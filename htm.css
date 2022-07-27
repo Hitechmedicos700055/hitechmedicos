@@ -1,0 +1,121 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(206, 203, 203);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #ff8e8e;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  .heading1{
+    margin-left: 40px;
+    margin-top: -60px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    
+}
+.heading2{
+    margin-left: 40px;
+    
+}
+.para1{
+    width: 700px;
+}
+.btn-div{
+    margin-left: 40px;
+    
+  }
+.social-media{
+    display: flex;
+    margin-top: 380px;
+    margin-left: 40px;
+    gap: 30px;
+    text-decoration: none;
+}
+.fa {
+    size: 1.5rem;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.tot-flex{
+    display: flex;
+}
+.side-div{
+    margin-top: -38px;
+}
+.btn-1{
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px skyblue;
+}
+.btn-2{
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px skyblue;
+}
+.btn-3{
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px skyblue;
+}
+.btn-1:hover{
+    box-shadow: 2px 5px 5px rgb(255, 166, 166);
+    transition-duration: 0.5s;
+}
+.btn-2:hover{
+    box-shadow: 2px 5px 5px rgb(255, 166, 166);
+    transition-duration: 0.5s;
+}
+.btn-3:hover{
+    box-shadow: 2px 5px 5px rgb(255, 166, 166);
+    transition-duration: 0.5s;
+}
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
